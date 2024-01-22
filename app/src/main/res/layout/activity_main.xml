@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:timePickerMode="spinner"/>
+
+    <Button
+        android:id="@+id/SetBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:text="알람 설정"
+        android:textSize="15sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/TimeData"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="70dp"
+        android:text="알람 설정 시간"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
